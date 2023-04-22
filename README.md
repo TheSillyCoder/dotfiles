@@ -1,2 +1,2 @@
 # dotfiles
-Just my config files that use on my PC
+Just my config files 
