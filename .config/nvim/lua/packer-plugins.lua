@@ -8,4 +8,6 @@ return require('packer').startup(function()
 	use 'vim-airline/vim-airline'
 	use 'lervag/vimtex'
 	use 'ryanoasis/vim-devicons'
+	use({ 'rose-pine/neovim', as = 'rose-pine' })
+
 end)

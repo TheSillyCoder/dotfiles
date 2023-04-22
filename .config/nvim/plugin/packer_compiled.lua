@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/home/anon/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["vim-airline"] = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/vim-airline",
