@@ -1,0 +1,10 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  opacity: 0.9
+font:
+  size: 8
+color:
+  primary:
+    background: '#1c1c1c'
