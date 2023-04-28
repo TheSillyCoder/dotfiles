@@ -10,6 +10,12 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# History
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+setopt histignorespace
+setopt histignoredups
+export HISTCONTROL=ignoreboth
 # Alias's for multiple directory listing commands
 alias la='ls -Alh' # show hidden files
 alias ls='ls -aFh --color=always' # add colors and file type extensions
