@@ -5,6 +5,9 @@ window:
   opacity: 0.9
 font:
   size: 8
+  normal:
+    family: FiraCode NFM
+    style: Regular
 color:
   primary:
     background: '#1c1c1c'

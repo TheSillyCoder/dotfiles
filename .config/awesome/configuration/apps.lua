@@ -10,7 +10,7 @@ return {
   default = {
     terminal = 'alacritty',
     rofi = rofi_command,
-    lock = 'i3lock -i "/home/anon/lockscreen/lockscreen.png" -u -e',
+    lock = 'i3lock -i "/home/anon/lockscreen/lockscreen.png" -e',
     quake = 'terminator',
     screenshot = 'flameshot screen -p ~/Pictures',
     region_screenshot = 'flameshot gui -p ~/Pictures',
@@ -29,7 +29,7 @@ return {
 	'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet --indicator', -- wifi
 	"xinput --set-prop 'Synaptics TM3320-003' 'libinput Tapping Enabled' 1", -- tap to click
-    "xinput --set-prop 'Synaptics TM3320-003' 'libinput Natural Scrolling Enabled' 1", -- natural scrolling
+    "xinput set-prop 'Synaptics TM3320-003' 'libinput Natural Scrolling Enabled' 1", -- natural scrolling
     'pnmixer', -- shows an audiocontrol applet in systray when installed.
     --'blueberry-tray', -- Bluetooth tray icon
     'numlockx on', -- enable numlock
