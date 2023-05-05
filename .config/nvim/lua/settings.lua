@@ -10,3 +10,6 @@ o.smarttab = true
 o.softtabstop = '4'
 o.ignorecase = true
 o.smartcase = true
+
+vim.cmd[[highlight Normal ctermbg=none]]
+vim.cmd[[highlight NonText ctermbg=none]]
