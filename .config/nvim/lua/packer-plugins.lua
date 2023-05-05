@@ -9,5 +9,5 @@ return require('packer').startup(function()
 	use 'lervag/vimtex'
 	use 'ryanoasis/vim-devicons'
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
-
+	use "lukas-reineke/indent-blankline.nvim"
 end)
