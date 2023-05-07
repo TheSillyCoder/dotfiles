@@ -1,5 +1,5 @@
 local lsp = require('lspconfig')
-servers = {'pyright', 'clangd','html'}
+servers = {'pyright', 'clangd','html','texlab'}
 for _, srvr in ipairs(servers) do
 	lsp[srvr].setup{}
 end
