@@ -3,7 +3,7 @@ servers = {'pyright', 'clangd','html','texlab'}
 for _, srvr in ipairs(servers) do
 	lsp[srvr].setup{}
 end
-
+	
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),
   callback = function(ev)
