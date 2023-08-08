@@ -28,8 +28,8 @@ return {
 	"variety",
 	'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet --indicator', -- wifi
-	"xinput --set-prop 'Synaptics TM3320-003' 'libinput Tapping Enabled' 1", -- tap to click
-    "xinput set-prop 'Synaptics TM3320-003' 'libinput Natural Scrolling Enabled' 1", -- natural scrolling
+	"xinput --set-prop 11 324 1", -- tap to click
+    "xinput set-prop 11 332 1", -- natural scrolling
     'pnmixer', -- shows an audiocontrol applet in systray when installed.
     --'blueberry-tray', -- Bluetooth tray icon
     'numlockx on', -- enable numlock
