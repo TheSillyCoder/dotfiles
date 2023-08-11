@@ -2,9 +2,9 @@ window:
   padding:
     x: 5
     y: 5
-  opacity: 0.9
+  opacity: 0.91
 font:
-  size: 8
+  size: 10
   normal:
     family: FiraCode NFM
     style: Regular
