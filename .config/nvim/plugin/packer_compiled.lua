@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/awesome-vim-colorschemes",
     url = "https://github.com/rafi/awesome-vim-colorschemes"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/anon/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -98,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/anon/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -158,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/anon/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   },
   vimtex = {
     loaded = true,

@@ -4,6 +4,7 @@ return require('packer').startup(function()
 	-- Stuff I genrally use
 	use 'preservim/nerdtree'
 	use 'tpope/vim-commentary'
+	use 'tpope/vim-surround'
 	use 'vim-airline/vim-airline'
 	use 'ryanoasis/vim-devicons'
 	use "lukas-reineke/indent-blankline.nvim"
@@ -12,6 +13,8 @@ return require('packer').startup(function()
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use 'gruvbox-community/gruvbox'
 	use 'rafi/awesome-vim-colorschemes'
+	use 'ayu-theme/ayu-vim'
+	use "rebelot/kanagawa.nvim"
 
 	-- For LaTeX
 	use 'lervag/vimtex'
