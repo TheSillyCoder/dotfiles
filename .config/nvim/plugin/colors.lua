@@ -1,5 +1,2 @@
--- vim.cmd[[let g:PaperColor_Theme_Options = {'theme':{'default.dark':{'transparent_background':1}}}]]
--- vim.cmd[[colorscheme PaperColor]]
--- vim.cmd('colorscheme rose-pine')
-vim.cmd('colorscheme kanagawa')
-vim.cmd('colorscheme ayu')
+vim.cmd.colorscheme("material-darker")
+vim.cmd.colorscheme("ayu")
