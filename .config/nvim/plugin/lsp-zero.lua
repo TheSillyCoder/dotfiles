@@ -12,7 +12,7 @@ lsp.format_on_save({
     servers = {
         ['lua_ls'] = { 'lua' },
         -- ['rust_analyzer'] = { 'rust' },
-        ['pylsp'] = { 'py' },
+        ['pyright'] = { 'py' },
         ['html'] = { 'html', 'htm' },
         ['clangd'] = { 'c', 'cpp' },
         ['texlab'] = { 'tex' },

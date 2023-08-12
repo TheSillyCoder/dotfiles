@@ -6,7 +6,7 @@ line.setup({
 
     inactive_sections = {
         lualine_a = { function()
-            return [[Its never lupus]]
+            return [[It's never lupus]]
         end },
         lualine_b = {},
         lualine_c = { 'filename' },
