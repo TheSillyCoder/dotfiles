@@ -56,3 +56,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Autocomplete
+zstyle ':completion:*' menu select
+zstyle :compinstall filename '/home/anon/.zshrc'
+autoload -Uz compinit
+compinit
