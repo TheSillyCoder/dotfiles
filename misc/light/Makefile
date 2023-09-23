@@ -1,0 +1,2 @@
+.POSIX:
+all: setbrightness
