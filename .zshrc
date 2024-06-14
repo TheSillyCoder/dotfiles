@@ -38,6 +38,7 @@ alias ldir="ls -l | egrep '^d'" # directories only
 
 # more aliases
 alias p="sudo pacman" # to make it less annoying
+alias cat="bat --theme 'Dracula'"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
