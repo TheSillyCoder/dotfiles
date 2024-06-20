@@ -50,4 +50,11 @@ return require('packer').startup(function()
             { 'L3MON4D3/LuaSnip' },     -- Required
         }
     }
+    use {
+        'nvim-telescope/telescope.nvim', branch = '0.1.x',
+        requires = {
+            {'nvim-lua/plenary.nvim'},
+            {'BurntSushi/ripgrep'},
+        }
+    }
 end)

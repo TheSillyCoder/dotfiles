@@ -10,12 +10,12 @@ end)
 
 lsp.format_on_save({
     servers = {
-        ['lua_ls'] = { 'lua' },
+        -- ['lua_ls'] = { 'lua' },
         -- ['rust_analyzer'] = { 'rust' },
-        ['pyright'] = { 'py' },
+        -- ['pyright'] = { 'py' },
         ['html'] = { 'html', 'htm' },
-        ['clangd'] = { 'c', 'cpp' },
-        ['texlab'] = { 'tex' },
+        -- ['clangd'] = { 'c', 'cpp' },
+        -- ['texlab'] = { 'tex' },
     }
 })
 lsp.ensure_installed({
