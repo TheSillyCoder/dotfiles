@@ -139,11 +139,6 @@ _G.packer_plugins = {
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/material.nvim",
     url = "https://github.com/marko-cerovac/material.nvim"
   },
-  nerdtree = {
-    loaded = true,
-    path = "/home/anon/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -189,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/anon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-astro"] = {
+    loaded = true,
+    path = "/home/anon/.local/share/nvim/site/pack/packer/start/vim-astro",
+    url = "https://github.com/wuelnerdotexe/vim-astro"
   },
   ["vim-commentary"] = {
     loaded = true,

@@ -2,7 +2,7 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
     -- Stuff I genrally use
-    use 'preservim/nerdtree'
+    -- use 'preservim/nerdtree'
     use 'tpope/vim-commentary'
     use 'tpope/vim-surround'
     -- use 'vim-airline/vim-airline'
@@ -33,6 +33,8 @@ return require('packer').startup(function()
             ts_update()
         end,
     }
+
+    use 'wuelnerdotexe/vim-astro'
 
     -- LSPs and Autocompletion config
     use {
