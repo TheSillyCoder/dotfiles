@@ -25,6 +25,8 @@ lsp.ensure_installed({
     'texlab',
     'html',
 })
+
+
 local cmp = require('cmp')
 local cmp_act = lsp.cmp_action()
 local cmp_select = { behavior = cmp.SelectBehavior.Select }

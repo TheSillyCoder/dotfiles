@@ -1,4 +1,4 @@
-return require('packer').startup(function()
+return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     -- Stuff I genrally use
@@ -59,4 +59,9 @@ return require('packer').startup(function()
             {'BurntSushi/ripgrep'},
         }
     }
+    -- use {
+    --     'mrcjkb/rustaceanvim', version = '^4'
+    -- }
+    use {'kaarmu/typst.vim', ft = {'typst'}}
+
 end)
